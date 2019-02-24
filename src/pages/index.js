@@ -8,15 +8,11 @@ import SEO from "../components/seo"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-    <h1>godori static blog test</h1>
-    <p>사랑해요 한글</p>
-    {/* <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
-    <Link to="/page-2/">Go to page 2</Link> */}
+    <h1>Godori Static Blog</h1>
+    <ul>
+      <li>Gatsby</li>
+      <li>Netlify</li>
+    </ul>
   </Layout>
 )
 
